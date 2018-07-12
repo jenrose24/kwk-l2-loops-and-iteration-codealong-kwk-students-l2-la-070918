@@ -19,7 +19,6 @@ function tailsNeverFails() {
    ++counter
    number = Math.random()
   }
-  
+  return "You got" + counter + "in a row!"
 }
 
-return "You got" + counter + "in a row!"
