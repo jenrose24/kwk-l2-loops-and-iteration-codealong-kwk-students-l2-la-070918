@@ -19,5 +19,4 @@ function tailsNeverFails() {
 while (number>.5){
 counter=++counter
 return counter
-
 }
