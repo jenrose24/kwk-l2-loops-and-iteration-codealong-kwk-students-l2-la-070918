@@ -17,6 +17,7 @@ function tailsNeverFails() {
  var number = Math.random()
  while (number>= 0.5){
  ++counter
+ number = Math.random()
 }
 }
 
