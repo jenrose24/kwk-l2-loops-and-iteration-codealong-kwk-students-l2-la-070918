@@ -15,8 +15,9 @@ function tailsNeverFails() {
 function tailsNeverFails() {
  var counter = 0;
  var number=Math.random();
-}
-while (number>.5){
+ while (number>= 0.5){
 counter=++counter
 }
-return "You got" counter "in a row!"
+}
+
+return "You got" + counter + "in a row!"
