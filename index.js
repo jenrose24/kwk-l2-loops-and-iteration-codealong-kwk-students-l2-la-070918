@@ -18,5 +18,5 @@ function tailsNeverFails() {
 }
 while (number>.5){
 counter=++counter
-return ""
 }
+return "You got" counter "in a row"
